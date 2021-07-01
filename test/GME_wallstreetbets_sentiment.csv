@@ -1,0 +1,615 @@
+,Text,Date,neg,neu,pos,compound
+0,"This is SO much bigger than GME or AMC stock price, it is a battle for equality! It is a fight to liberate ourselves from the Orwellian reality we live in.[removed]",2021-06-30 04:06:09,0.169,0.831,0.0,-0.6696
+1,"Robinhood creates a new recordIts payback time for Robinhood. They will be paying 70 million USD in fines. A new record. Lol. Finally Robinhood is paying for stealing from retail traders during the GME squeeze. More than the fine, the timing of it is going to effect Robinhood as they prepare to file for IPO.",2021-06-30 13:06:40,0.062,0.821,0.117,0.3102
+2,I am a bot from /r/wallstreetbets. Your submission was removed because was too short. Please make it a comment if it's not worth expounding on.,2021-06-30 13:06:40,0.18,0.732,0.089,-0.3326
+3,Why the fuck hasn’t gme gone to the shitter[removed],2021-06-30 12:51:23,0.0,1.0,0.0,0.0
+4,"Your submission was removed from /r/wallstreetbets due to being too short. All text submissions must be at least 100 characters long.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/wallstreetbets) if you have any questions or concerns.*",2021-06-30 12:51:23,0.063,0.888,0.049,-0.1779
+5,$NEGG finally moved. To all the $GME apes I tried to convert that laughed at me… SUCK IT!,2021-06-30 10:24:46,0.179,0.684,0.137,-0.2323
+6,"$CLOV 🚀🚀🚀 Diamond Hands 💎HOLD THE FUCKIN LINE!!!!!!!!!
+
+CLOV has the best potential to be the next GME and AMC.  Borrow rates are HIGH.  Let’s push to break $15+ this week.
+
+Diamond Hands Needed.",2021-06-30 10:48:26,0.0,0.732,0.268,0.9075
+7,I am a bot from /r/wallstreetbets. Your submission was removed because was too short. Please make it a comment if it's not worth expounding on.,2021-06-30 10:48:26,0.18,0.732,0.089,-0.3326
+8,"DIY Sentiment Investing - Beating SPY YTD and BUZZ since inception. Last week's numbers and positions:Hey guys! There’ve been a lot of phenomenal sentiment trackers around WSB, and wanted to give a results-first take on that approach — what I did was create one that focuses just one what people in this sub are saying. I’ve created my own sentiment analyzer, and have been investing in it for more than a year now. If you want to take a crack at using it yourself, here’s the [source code](https://github.com/tstewart161/Reddit_Sentiment_Trader).
+
+# The Important Stuff
+
+Long story short for the week -- you'll $WISH you had $AMC in your portfolio last week, and...eh I got nothing. Anyways, when you compare this sentiment tracker to the benchmark social sentiment ETF, BUZZ, this one wins hands down. **This algorithm has returned 55% since March 2 (when BUZZ came out), compared to SPY's 10% and BUZZ's 7%.**
+
+I rebalanced my portfolio last week to include the 15 stocks below (equal-weighted), giving me a \*\*2.18% return week over week (net of any fees/slippage), compared to a 0.39% loss for SPY and 0.66% loss for my benchmark, the VanEck BUZZ Social Sentiment ETF\*\*. **Important to note that not every week is a breakout win** (even if some member stocks in the ETF are), and not every week is a win at all. I've had some weeks where I've trailed both SPY and BUZZ by a lot, but overall I'm beating SPY YTD and BUZZ since its introduction. 
+
+Your typical sentiment analysis stuff coming through. I do this stuff for fun and make money off the stocks I pick doing it most weeks, so thought I'd share. I created an algo that scans the most popular trading sub-reddits and logs the tickers mentioned in due-diligence or discussion-styled posts. In addition to scanning for how many times each ticker was mentioned in a comment, I also logged the popularity of the comment (giving it something similar to an exponential weight -- the more upvotes, the higher on the comment chain and the more people usually see it) and/or post, and finally checked for the sentiment of each comment/self text post.
+
+# How is sentiment calculated?
+
+This uses VADER ( Valence Aware Dictionary for Sentiment Reasoning), which is a model used for text sentiment analysis that is sensitive to both polarity (positive/negative) and intensity (strength) of emotion. The way it works is by relying on a dictionary that maps lexical (aka word-based) features to emotion intensities -- these are known as sentiment scores. The overall sentiment score of a comment/post is achieved by summing up the intensity of each word in the text. In some ways, it's easy: words like ‘love’, ‘enjoy’, ‘happy’, ‘like’ all convey a positive sentiment. Also VADER is smart enough to understand the basic context of these words, such as “didn’t really like” as a rather negative statement. It also understands the emphasis of capitalization and punctuation, such as “I LOVED” which is pretty cool. Phrases like “The turkey was great, but I wasn’t a huge fan of the sides” have sentiments in both polarities, which makes this kind of analysis tricky -- essentially with VADER you would analyze which part of the sentiment here is more intense. There’s still room for more fine-tuning here, but make sure to not be doing too much. There’s a similar phenomenon with trying to hard to fit existing data in stats called overfitting, and you don’t want to be doing that.
+
+The best way to use this data is to learn about new tickers that might be trending. This gives many people an opportunity to learn about these stocks and decide if they want to invest in them or not - or develop a strategy investing in these stocks before they go parabolic. \*\*Although the results from this algorithm have beaten benchmarked sentiment indices like BUZZ and FOMO (on a risk-adjusted basis), sentiment analysis is by no means a “long term SPY-beating strategy.”\*\* I’m well aware that most of my crazy returns are from GME and AMC (and more recently, WISH). These tickers do show up in BUZZ, but after they do on Reddit and at a lower weighting.
+
+So, the data from last week:
+
+# WSB - Highest Sentiment Equities This Week (what’s in the portfolio)
+
+Estimated Total Comments Parsed Last 7 Day(s): 300k-ish (the text file I store my data in ended up being 55mb -- it’s nothing crazy but it’s quite large for just text)
+
+&amp;#x200B;
+
+|**Ticker**|**Comments/Posts**|**Sentiment Score**|
+|:-|:-|:-|
+|WISH|5,328|2,839|
+|CLNE|4,715|1,317|
+|GME|4,660|904|
+|BB|2,216|780|
+|CLOV|2,094|777|
+|AMC|2,080|646|
+|WKHS|936|295|
+|CLF|908|269|
+|UWMC|855|165|
+|ET|804|153|
+|TLRY|569|116|
+|CRSR|451|79|
+|SENS|282|75|
+|ME|82|36|
+|SI|59|35|
+
+&amp;#x200B;
+
+Sentiment score is calculated by looking at stock mentions, upvotes per comment/post with the mention, and sentiment of comments.
+
+Happy to answer any more questions about the process/results.",2021-06-30 17:02:47,0.043,0.839,0.118,0.9963
+9,"I am a bot from /r/wallstreetbets.                                You submitted one or more banned tickers: BUZZ.
+
+                                Message /u/zjz if they're above 1.25 billion-ish market cap and not related to crypto/pennies/OTC/SPACs.",2021-06-30 17:02:47,0.116,0.884,0.0,-0.5095
+10,"DIY Sentiment Investing - Beating SPY YTD and Sentiment ETFs since inception. Last week's numbers and positions:Hey guys! There’ve been a lot of phenomenal sentiment trackers around WSB, and wanted to give a results-first take on that approach — what I did was create one that focuses just one what people in this sub are saying. I’ve created my own sentiment analyzer, and have been investing in it for more than a year now. If you want to take a crack at using it yourself, here’s the [source code](https://github.com/tstewart161/Reddit_Sentiment_Trader).
+
+NOTE: A popular sentiment investing ETF is a banned ticker, so I just called it Popular Sentiment Investing ETF
+
+# The Important Stuff
+
+Long story short for the week -- you'll $WISH you had $AMC in your portfolio last week, and...eh I got nothing. Anyways, when you compare this sentiment tracker to the benchmark social sentiment ETF, Popular Sentiment Investing ETF, this one wins hands down. **This algorithm has returned 55% since March 2 (when** Popular Sentiment Investing ETF **came out), compared to SPY's 10% and** Popular Sentiment Investing ETF's **7%.**
+
+I rebalanced my portfolio last week to include the 15 stocks below (equal-weighted), giving me a \*\*2.18% return week over week (net of any fees/slippage), compared to a 0.39% loss for SPY and 0.66% loss for my benchmark, the VanEck Popular Sentiment Investing ETF. **Important to note that not every week is a breakout win** (even if some member stocks in the ETF are), and not every week is a win at all. I've had some weeks where I've trailed both SPY and Popular Sentiment Investing ETF by a lot, but overall I'm beating SPY YTD and Popular Sentiment Investing ETF since its introduction. 
+
+Your typical sentiment analysis stuff coming through. I do this stuff for fun and make money off the stocks I pick doing it most weeks, so thought I'd share. I created an algo that scans the most popular trading sub-reddits and logs the tickers mentioned in due-diligence or discussion-styled posts. In addition to scanning for how many times each ticker was mentioned in a comment, I also logged the popularity of the comment (giving it something similar to an exponential weight -- the more upvotes, the higher on the comment chain and the more people usually see it) and/or post, and finally checked for the sentiment of each comment/self text post.
+
+# How is sentiment calculated?
+
+This uses VADER ( Valence Aware Dictionary for Sentiment Reasoning), which is a model used for text sentiment analysis that is sensitive to both polarity (positive/negative) and intensity (strength) of emotion. The way it works is by relying on a dictionary that maps lexical (aka word-based) features to emotion intensities -- these are known as sentiment scores. The overall sentiment score of a comment/post is achieved by summing up the intensity of each word in the text. In some ways, it's easy: words like ‘love’, ‘enjoy’, ‘happy’, ‘like’ all convey a positive sentiment. Also VADER is smart enough to understand the basic context of these words, such as “didn’t really like” as a rather negative statement. It also understands the emphasis of capitalization and punctuation, such as “I LOVED” which is pretty cool. Phrases like “The turkey was great, but I wasn’t a huge fan of the sides” have sentiments in both polarities, which makes this kind of analysis tricky -- essentially with VADER you would analyze which part of the sentiment here is more intense. There’s still room for more fine-tuning here, but make sure to not be doing too much. There’s a similar phenomenon with trying to hard to fit existing data in stats called overfitting, and you don’t want to be doing that.
+
+The best way to use this data is to learn about new tickers that might be trending. This gives many people an opportunity to learn about these stocks and decide if they want to invest in them or not - or develop a strategy investing in these stocks before they go parabolic. \*\*Although the results from this algorithm have beaten benchmarked sentiment indices like Popular Sentiment Investing ETF (on a risk-adjusted basis), sentiment analysis is by no means a “long term SPY-beating strategy.”\*\* I’m well aware that most of my crazy returns are from GME and AMC (and more recently, WISH). These tickers do show up in Popular Sentiment Investing ETF, but after they do on Reddit and at a lower weighting.
+
+So, the data from last week:
+
+# WSB - Highest Sentiment Equities This Week (what’s in the portfolio)
+
+Estimated Total Comments Parsed Last 7 Day(s): 300k-ish (the text file I store my data in ended up being 55mb -- it’s nothing crazy but it’s quite large for just text)
+
+&amp;#x200B;
+
+|**Ticker**|**Comments/Posts**|**Sentiment Score**|
+|:-|:-|:-|
+|WISH|5,328|2,839|
+|CLNE|4,715|1,317|
+|GME|4,660|904|
+|BB|2,216|780|
+|CLOV|2,094|777|
+|AMC|2,080|646|
+|WKHS|936|295|
+|CLF|908|269|
+|UWMC|855|165|
+|ET|804|153|
+|TLRY|569|116|
+|CRSR|451|79|
+|SENS|282|75|
+|ME|82|36|
+|SI|59|35|
+
+&amp;#x200B;
+
+Sentiment score is calculated by looking at stock mentions, upvotes per comment/post with the mention, and sentiment of comments.
+
+Happy to answer any more questions about the process/results.",2021-06-30 17:09:29,0.042,0.82,0.138,0.9977
+11,"
+**User Report**| | | |
+:--|:--|:--|:--
+**Total Submissions**|5|**First Seen In WSB**|3 days ago
+**Total Comments**|10|**Previous DD**|[x](https://www.reddit.com/r/wallstreetbets/comments/o96a8x/diy_sentiment_investing_beating_spy_ytd_and_all/) 
+**Account Age**|8 years|[^scan ^comment ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_comment&message=Replace%20this%20text%20with%20a%20comment%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20comment%20and%20correct%20your%20first%20seen%20date.)|[^scan ^submission ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_submission&message=Replace%20this%20text%20with%20a%20submission%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20submission%20and%20correct%20your%20first%20seen%20date.)",2021-06-30 17:09:29,0.0,1.0,0.0,0.0
+12,Wkhs been ready but also in clne. Lets goooo,2021-06-30 17:09:29,0.0,0.821,0.179,0.1901
+13,CLOV 🍀got a score of 777? I say that's luckyy,2021-06-30 17:09:29,0.0,1.0,0.0,0.0
+14,"Just noticed SI is considered a stonk instead of short interest lol, hope that's a sleeper winner",2021-06-30 17:09:29,0.109,0.327,0.564,0.91
+15,"VIAC: God King DD for All My Coked Out FriendsVIAC is a massive media company that is selling at a deep discount and is ready for a breakout. As many of you know due to some hedge fund tom foolery (thanks Bill Hwang) VIAC lost about half of its value. He went out in true WSB fashion, but thanks to him he have some WSB opportunities.
+
+VIAC is an old media company that has lots of appealing properties, and now has recently announced they are focusing on streaming services. In their streaming service portfolio they have Paramount+, Pluto, and Showtime with Paramount+ being their new darling garnering lots of attention.
+
+Now many have pointed out how VIAC has an extremely low P/E, great earnings reports, and more, but repeating that would be a waste of your time and mine. Read [this](https://www.reddit.com/r/wallstreetbets/comments/n3k1gk/god_tier_dd_viac/) post if you want to learn more.
+
+Today I would like to point a few things out that many of us haven't noticed that are food for thought:
+
+1.Paramount+ is doing better than many would have you believe.
+
+https://preview.redd.it/rrfh4lw9ch871.png?width=1974&amp;format=png&amp;auto=webp&amp;s=fe1effae0ad2e94b4fa92682586a6ae01074b692
+
+Now Google Trends is no guarantee for sales, but it is a good indicator of interest. I have heard lots of slander on how Paramount+ has no good shows or how it can't compete with others in the field, but frankly I disagree. Their library is impressive if you dig into it and they are adding thousands of movies as we speak. On top of that, their ad campaigns seem like they are working and streaming has been gaining quarter over quarter for them on lesser streaming services they own like Pluto (seriously who uses Pluto). Paramount+ is gaining steam and that is going to show in the next earnings report.
+
+2. Their Earnings Projections are underestimated
+
+https://preview.redd.it/bl0d0nxuch871.png?width=1660&amp;format=png&amp;auto=webp&amp;s=4b1b08b72987d60dd08a48a04230f24eb6a718b0
+
+The current estimates have VIAC underperforming their last quarter. I believe there is no possible way this is the case. Their steaming revenues have vastly increased and the data coming in about their legacy cable networks indicates better than normal performance. For example, there have been reports that their ad cost per million views being higher than normal and that many of their flagship events have been going gangbusters (just see the BET awards ratings if you don't believe me). All signs are showing big revenue coming in that the analysts aren't factoring in, and I believe the earnings surprise is going to be bigger than last time.
+
+3. The Acquisition Rumors
+
+Out of all the major media companies that could be acquired, VIAC is the most likely to happen soon. There has been a frenzie to consolidate rights in media companies and VIAC is an obvious play for many media distributors. They are relatively cheap unlike other options like ROKU (which has been frequently talked about in acquisition rumors) and so it is very likely VIAC will be picked up in the next 6-12 months in the $70-100 dollar range.
+
+Disclaimer: I have a position in this company. Here it is:
+
+[that's a lot of Tendies for a college kid like me](https://preview.redd.it/m4koil62eh871.png?width=638&amp;format=png&amp;auto=webp&amp;s=74dc9e2bfd37a05d226070906fecb054058c74c6)
+
+Come on, you know you want to get on the rocket with me: [🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/)[🚀](https://emojipedia.org/rocket/). Stop being a sheep with GME and AMC and get in on a company before everyone else for once. We are about to take off.",2021-06-30 17:47:45,0.047,0.781,0.171,0.9976
+16,"
+**User Report**| | | |
+:--|:--|:--|:--
+**Total Submissions**|6|**First Seen In WSB**|5 months ago
+**Total Comments**|33|**Previous DD**|[x](https://www.reddit.com/r/wallstreetbets/comments/ncj63r/viac_a_hunch_and_a_volcano_waiting_to_explode/) 
+**Account Age**|3 years|[^scan ^comment ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_comment&message=Replace%20this%20text%20with%20a%20comment%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20comment%20and%20correct%20your%20first%20seen%20date.)|[^scan ^submission ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_submission&message=Replace%20this%20text%20with%20a%20submission%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20submission%20and%20correct%20your%20first%20seen%20date.)",2021-06-30 17:47:45,0.0,1.0,0.0,0.0
+17,"I got all in
+
+[VIAC](https://imgur.com/2ZEuHwJ)",2021-06-30 17:47:45,0.0,1.0,0.0,0.0
+18,"Good DD, been following this one for a few weeks it feels and looks ready for a push and I've paid for some of the shows myself they are doing a good job very interesting.",2021-06-30 17:47:45,0.0,0.713,0.287,0.8832
+19,Been holding this since crash at average 40. I have about 7k in stock and options,2021-06-30 17:47:45,0.162,0.838,0.0,-0.4019
+20,Bought some yesterday.  Hold long term,2021-06-30 17:47:45,0.0,0.625,0.375,0.4588
+21,"So, acquisition talk is great. My concern is since they’re already a cable provider, and a large one at that, there’s antitrust issues depending on who is eyeing them up. I think if there was an acquisition it’d be for their production business and maybe their digital library rights. The latter is especially tricky because how do you even value a digital media catalog like this? It’s not the same as music. 
+
+All in all, I’m in deep with VIAC LEAPs and agree it’s a gem.",2021-06-30 17:47:45,0.021,0.85,0.129,0.8627
+22,VIAC is a beast in the making 💪🏼💪🏼💪🏼,2021-06-30 17:47:45,0.0,1.0,0.0,0.0
+23,Holding my few hundred shares.  No options.  Don’t check the price.   Just get paid dividends and one day  I will wake up to see if back to 100 on an acquisition or something else.   That day maybe be two weeks from now or 2 years.   I can wait.   Ain’t doing nothin else anyway.  So yeah.,2021-06-30 17:47:45,0.039,0.877,0.084,0.3597
+24,"Bruh I’m balls deep in VIAC, I’ll be a millionaire if it takes off! No matter what you think might happen in the short term, I find it hard to disagree that it’s a good stock long term! VIAC🚀",2021-06-30 17:47:45,0.223,0.685,0.091,-0.6988
+25,"Been in. Staying in. Loaded more during the dips. Still in the red, but not for long. It’s going to 50 in next two weeks.",2021-06-30 17:47:45,0.0,1.0,0.0,0.0
+26,I'm in.,2021-06-30 17:47:45,0.0,1.0,0.0,0.0
+27,"It takes a lot to move this stock and most of the big buys happened when it was dumped during the margin call.  I tried on this one and lost.  For me, its a no go, i wish you the best of luck, but i am out.",2021-06-30 17:47:45,0.107,0.757,0.136,0.3291
+28,The Yellowstone show with Kevin Costner is pretty dam good $VIAC 🚀🚀🚀,2021-06-30 17:47:45,0.0,0.621,0.379,0.7269
+29,2100 shares long and 75x $60 leaps. This is my biggest position by far and it's barely even getting started.,2021-06-30 17:47:45,0.0,0.896,0.104,0.296
+30,It's cheap but I like a Tyson foods better. Im lazy and eat only Tyson chicken and the stock cheap therefore I buy calls and no stock.,2021-06-30 17:47:45,0.155,0.46,0.386,0.8765
+31,"I saw a post about VIAC right after the price crashed in March, it's gone down \~$6 then back up \~$6 in the 3 months since then.
+
+The idea back then was that it crashed due to the hedge fund sell liquidation with no change to the fundamentals and would go back up once everyone bought the cheap shares.
+
+It's been 4 months since then and it's traded sideways at roughly the same price it was before the massive run up preceding the crash.
+
+&#x200B;
+
+&#x200B;
+
+Unless WSB has enough money to force up it on sheer volume I don't see this happening. If it was going to run up why has it been going sideways for 4 full months?",2021-06-30 17:47:45,0.089,0.893,0.018,-0.8271
+32,You’re doing Q-to-Q analysis which makes no sense. That is pretty flawed to think that 2nd quarter won’t be worse then the first because of streaming alone? I don’t even need to look at the top line makeup to know you didn’t look at the 10-k and don’t know all of the revenue streams.,2021-06-30 17:47:45,0.121,0.796,0.083,-0.3182
+33,"I’m in on this. My only worry is the resistance it’s facing around $45. I’m worried there are some other players holding more of Billy Hwang’s bags and dumping in that range. 
+
+But I’m still in and hoping for a moonshot. 
+
+Unless VIAC has a giant run up, acquisition is likely $55-$65 I think.",2021-06-30 17:47:45,0.129,0.822,0.049,-0.5574
+34,This is not a bad play. In.,2021-06-30 17:47:45,0.229,0.45,0.321,0.2057
+35,Uhh read universal plus and bet then just noped tf outta the post tbh,2021-06-30 17:47:45,0.0,1.0,0.0,0.0
+36,Uh lost half of it's value or got pumped by Archegos to unrealistic valuation?,2021-06-30 17:47:45,0.138,0.719,0.144,0.0258
+37,"Who To Trust???I thought I read a post about a month ago listing wallstreetbets or apes who are legitimate when it comes to ""meme stocks"" but can't locate it.  I understand they are not financial advisors, but they aren't feeding you a bunch of crap.  
+
+Currently I am following:
+
+Treys Trades, Matt Kohrs, Jackson Hunter, The Masked Investor, Roensch Capital, Matthew Perry,  Nick Finance and Kong. 
+
+All, for the most part, are currently AMC or GME 24/7.  I don't like to put all my eggs in one basket and I'm ready to branch out a little.  Who do you trust?  You literally can't see the forest for all the FUD that's popping up on wallstreetbets.  It's a battle!",2021-06-30 01:43:08,0.114,0.801,0.086,-0.5494
+38,"
+**User Report**| | | |
+:--|:--|:--|:--
+**Total Submissions**|3|**First Seen In WSB**|3 weeks ago
+**Total Comments**|1|**Previous DD**|
+**Account Age**|6 months|[^scan ^comment ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_comment&message=Replace%20this%20text%20with%20a%20comment%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20comment%20and%20correct%20your%20first%20seen%20date.)|[^scan ^submission ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_submission&message=Replace%20this%20text%20with%20a%20submission%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20submission%20and%20correct%20your%20first%20seen%20date.)",2021-06-30 01:43:08,0.0,1.0,0.0,0.0
+39,Huh,2021-06-30 01:43:08,0.0,1.0,0.0,0.0
+40,"Isn't the WSB trick all about finding low volatility YOLOs before the volatility goes up? All those things you mention are high volatility now, making the options too close to 1:1 for any exciting gains
+
+As for what to listen to, that sounds like a filtering thing. Happens behind the eyeballs on a continual basis",2021-06-30 01:43:08,0.035,0.809,0.156,0.7309
+41,Trust me. Buy Clif bars. The oatmeal raisin walnut ones are the best.,2021-06-30 01:43:08,0.0,0.488,0.512,0.8885
+42,"I trust the stuff people put out here if it 
+A) has data to support what they say in the post
+B) is backed up by my own research
+C) I have money to yolo in to stupid stuff.
+
+For example someone said AMD was going to pop off, I looked in to it, looked solid, threw money in and it’s gone up so far. Probably will continue too because of all the good news coming out. Someone said yolo in to TTCF, looked in to it, seemed solid and I had leftover money from my amd play so I dumped it in to that.
+
+I’d say I’m breaking even so far with WSB plays which I don’t know if I’m happy about or sad cause that technically means I’m not an ape...",2021-06-30 01:43:08,0.085,0.735,0.179,0.8836
+43,"Haven't you heard? ""Blue Horseshoe loves Clover Health (CLOV)""",2021-06-30 01:43:08,0.0,0.684,0.316,0.5719
+44,Anyone still holds GME?[removed],2021-06-30 00:52:37,0.0,1.0,0.0,0.0
+45,"Your submission was removed from /r/wallstreetbets due to being too short. All text submissions must be at least 100 characters long.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/wallstreetbets) if you have any questions or concerns.*",2021-06-30 00:52:37,0.063,0.888,0.049,-0.1779
+46,$GME love volume and oversold??? Here come that boii!1!1!!!!1!1! 🚀,2021-06-30 11:15:57,0.0,0.575,0.425,0.785
+47,"
+**User Report**| | | |
+:--|:--|:--|:--
+**Total Submissions**|4|**First Seen In WSB**|3 weeks ago
+**Total Comments**|32|**Previous DD**|
+**Account Age**|3 years|[^scan ^comment ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_comment&message=Replace%20this%20text%20with%20a%20comment%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20comment%20and%20correct%20your%20first%20seen%20date.)|[^scan ^submission ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_submission&message=Replace%20this%20text%20with%20a%20submission%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20submission%20and%20correct%20your%20first%20seen%20date.)",2021-06-30 11:15:57,0.0,1.0,0.0,0.0
+48,"I am a bot from /r/wallstreetbets. You submitted an image I've already seen before.                        If you're submitting a position screenshot use Gain/Loss/YOLO flair or it'll be duplicate checked.
+                        If you submitted something and then immediatley deleted it... don't do that next time.
+
+https://i.redd.it/m75gajfugf871.jpg",2021-06-30 11:15:57,0.0,1.0,0.0,0.0
+49,"MONKEY RECRUITERS.  
+
+💎🐒 $ GME (GameStop Corp New) But in addition to doing HODL and BUY because the big KING KONGs who took big profits, don't open agencies to get people to buy and keep GAMESTOP shares, perhaps using the help of monkeys who aspire to get rich like the movie '' THE WOLF OF WALL STREET '' !? ''
+
+Today the world population is 7.8 billion people. How much money does it go around the world? - If by money we only mean coins and banknotes in circulation, according to Money Project we are talking about  5 trillion dollars, that is 5 trillion, which all in all is a figure that we are still able to conceive, albeit with some difficulty. ' '
+
+I don't think it's very difficult to get a person to join the apes in a war against capitalism. We need organization ... what do you think? It's illegal ? 
+
+&amp;#x200B;
+
+https://preview.redd.it/y22q64192f871.png?width=985&amp;format=png&amp;auto=webp&amp;s=d668864f93f110803a2ea0676d9af5aa66435388",2021-06-30 09:52:15,0.075,0.783,0.142,0.8858
+50,"GME, AMC[removed]",2021-06-30 08:34:19,0.0,1.0,0.0,0.0
+51,"Your submission was removed from /r/wallstreetbets due to being too short. All text submissions must be at least 100 characters long.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/wallstreetbets) if you have any questions or concerns.*",2021-06-30 08:34:19,0.063,0.888,0.049,-0.1779
+52,"This week in AMCI do not believe every drop in AMC is due to hedge funds or every rise is due to Apes. Both are factors but not the only factors.  So far this week we are in a good range trade area on very low (relative) value. It is a good sign that we can maintain prices even without 150 million shares traded.  AMC is waiting for a catalyst.   If not before the shareholders meeting should be a big factor.  But we may be entering a long sideways period because it is now going to be July and investor action often dries up.  If we believe the S3 data, GME saw significant covering (probably those who shorted at 300 or 400) but AMC saw an increase in short interest and we know FTD increased.  So it does not seem like either side is budging. May be more of a siege than a blitzkrieg but we seem to be holding the line.",2021-06-30 20:44:43,0.078,0.787,0.135,0.8838
+53,"
+**User Report**| | | |
+:--|:--|:--|:--
+**Total Submissions**|5|**First Seen In WSB**|2 months ago
+**Total Comments**|65|**Previous DD**|
+**Account Age**|4 months|[^scan ^comment ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_comment&message=Replace%20this%20text%20with%20a%20comment%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20comment%20and%20correct%20your%20first%20seen%20date.)|[^scan ^submission ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_submission&message=Replace%20this%20text%20with%20a%20submission%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20submission%20and%20correct%20your%20first%20seen%20date.)",2021-06-30 20:44:43,0.0,1.0,0.0,0.0
+54,Which ones of you got restitution for your girlfriend’s boyfriend’s account you pissed in GME?,2021-06-30 21:30:50,0.231,0.769,0.0,-0.6369
+55,"News posts **must be market moving** and contain **new** information. Please avoid editorializing the title. 
+
+If your post doesn't meet the requirements above, please delete the thread before a mod sees it.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/wallstreetbets) if you have any questions or concerns.*",2021-06-30 21:30:50,0.037,0.846,0.117,0.5719
+56,"Every time I see a negative article about AMC and GME‼️Weakness, groveling‼️Makes me sick‼️🤮#MOASS",2021-06-30 20:58:46,0.252,0.748,0.0,-0.5719
+57,Why so damn bullish Chico!?👀GME[removed],2021-06-30 22:28:48,0.313,0.314,0.373,0.1474
+58,I am a bot from /r/wallstreetbets. Your submission was removed because was too short. Please make it a comment if it's not worth expounding on.,2021-06-30 22:28:48,0.18,0.732,0.089,-0.3326
+59,"$CLOV and $XELA squeeze just starting$CLOV and $XELA are the most likely stocks to squeeze and they are already doing so!
+
+I know you guys all love $GME $AMC $WISH $SOFI etc. - so DO I. But jumping on the $CLOV and/or $XELA train seems to be the move right now!!!
+
+https://preview.redd.it/uqrftybabe871.png?width=2143&amp;format=png&amp;auto=webp&amp;s=3582a2d757a46cc20e4a8fbc5aa460a57e984f65
+
+Source:  [Short Squeeze Screener / Explorer (fintel.io)](https://fintel.io/shortSqueeze)",2021-06-30 07:23:18,0.0,0.911,0.089,0.7482
+60,"News posts **must be market moving** and contain **new** information. Please avoid editorializing the title. 
+
+If your post doesn't meet the requirements above, please delete the thread before a mod sees it.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/wallstreetbets) if you have any questions or concerns.*",2021-06-30 07:23:18,0.037,0.846,0.117,0.5719
+61,"I am a bot from /r/wallstreetbets. Your submission was removed. News should be a screenshot or link to a news story, can't be a selfpost.",2021-06-30 07:23:18,0.0,1.0,0.0,0.0
+62,"WHY WKHS IS THE SQUEEZE OF A LIFETIMEIf you have done any research, I believe that it is fairly evident that WKHS would be the easiest next squeeze target.
+
+This post really will not be complicated, it is very simple.
+
+* WKHS has a 40+% SI with only a 2B market cap
+
+What this means is that it would be very easy for the stock to double or so with momentum, and on top of that, a 40% SI is more than enough to have a GARGANTUAN short squeeze, GME levels.
+
+On a technical level:
+
+📷
+
+WKHS broke out of its downward channel on June 2nd with 34 million shares traded and rocketed toward $18 before getting rejected.
+
+It has since touched $18 three more times and has started to form a bull flag on the daily. Once we can break this $18 resistance the bull flag will be complete and it should initiate the WKHS gamma squeeze. Not to mention, it has just shown a MACD crossing, which signals a bullish reversal out of its consolidation.
+
+On a fundamental level, although it personally wouldn't be my favorite fundamental stock, it is still very solid:
+
+• $15B in EV infrastructure in current bi-partisan agreement for infrastructure, Biden admin pushed for $174B.
+
+Electric vehicle infrastructure gets $15 billion in new US bipartisan proposal, new EV rebate to come later - Electrek
+
+• Biden executive order states (with application to USPS contract):
+
+Consistent with the goals of the President’s Build Back Better jobs and economic recovery plan, of which his clean energy jobs plan is a central pillar, the order directs the federal agencies to procure carbon pollution-free electricity and clean, zero-emission vehicles to create good-paying, union jobs and stimulate clean energy industries.
+
+FACT SHEET: President Biden Takes Executive Actions to Tackle the Climate Crisis at Home and Abroad, Create Jobs, and Restore Scientific Integrity Across Federal Government | The White House
+
+• Owns patents for drones that launch and return to their EV delivery trucks, no one else has this tech let alone actual EV delivery trucks on the road like Workhorse
+
+• FAA drone approval this year
+
+• Over $600 million of EV truck orders
+
+• EV refrigeration prototypes
+
+• Strategic development agreement with manufacturer of current gas-powered USPS vehicles
+
+• Ramping up exponential EV truck production with Hitachi
+
+• Horsefly drone passed all 45 stringent tests that also involved humans, delivered organs
+
+• UPS now has confirmation of horsefly tech being successful and FAA compliant
+
+• IKEA continues to be spotted using workhorse trucks
+
+• Institutional ownership continues to increase
+
+• Debt-free, $250 Million cash on hand
+
+It has also been trending on WSB for about 2 weeks now and gaining momentum rapidly. I will be very excited to see this play out in the next month or two, or even this week. As for me, I hold calls and shares in WKHS and am a huge fan of the play.
+
+Hope you enjoyed this post, it took quite a bit of time to make!
+
+Thank you! Best of luck to everyone!
+
+Note: This is not financial advice",2021-06-30 07:52:34,0.035,0.773,0.192,0.9976
+63,"
+**User Report**| | | |
+:--|:--|:--|:--
+**Total Submissions**|3|**First Seen In WSB**|3 months ago
+**Total Comments**|57|**Previous DD**|[x](https://www.reddit.com/r/wallstreetbets/comments/oawnxa/wkhs_dd/) [x](https://www.reddit.com/r/wallstreetbets/comments/oawp8b/why_wkhs_is_the_squeeze_of_a_lifetime/) 
+**Account Age**|5 months|[^scan ^comment ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_comment&message=Replace%20this%20text%20with%20a%20comment%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20comment%20and%20correct%20your%20first%20seen%20date.)|[^scan ^submission ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_submission&message=Replace%20this%20text%20with%20a%20submission%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20submission%20and%20correct%20your%20first%20seen%20date.)
+    
+Hey /u/Far_Yogurtcloset2385, **positions or ban.** Reply to this with a screenshot of your entry/exit.",2021-06-30 07:52:34,0.0,1.0,0.0,0.0
+64,"That was/is GME, actually.",2021-06-30 07:52:34,0.0,1.0,0.0,0.0
+65,Mods need to ban any post that mentions “short squeeze” from now on.,2021-06-30 07:52:34,0.231,0.769,0.0,-0.5574
+66,Nice post. Thanks to you and thanks to the horse! WKHS WKHS WKHS. Have a great Wednesday! 🏇💪💎🚀🌙,2021-06-30 07:52:34,0.0,0.495,0.505,0.9229
+67,It’s AMC and GME. That’s it! The only two stocks that matter right now for a squeeze.,2021-06-30 07:52:34,0.0,0.915,0.085,0.1007
+68,The only thing I like squeezing are your wife’s titties,2021-06-30 07:52:34,0.0,0.762,0.238,0.3612
+69,Positions?,2021-06-30 07:52:34,0.0,1.0,0.0,0.0
+70,Shit DD,2021-06-30 07:52:34,0.783,0.217,0.0,-0.5574
+71,"Listen, you've got a decent post here for the most part, but we don't target things for a short-squeeze. If you want to repost with a modified title and the squeeze stuff taken out feel free, tag me in it and I'll approve it.",2021-06-30 07:52:34,0.0,0.877,0.123,0.6652
+72,"EGLX Tops NASDAQ’s Top 3 “Strong Buys That Could Rip Higher”! With Year-o-Year Growth of over 300% &amp; Their Most Recent Acquisition of TabWire, EGLX is Heading 🚀 and is Prime for a Major Upside Move or Perhaps a Takeover by GME!",2021-06-30 09:16:03,0.0,0.809,0.191,0.8065
+73,"SoFi short interest by 148%???Dear lovely Apes! I just read some comments on Reddit…. 
+
+Someone saw the updated short interest on SoFi…. 148%???
+
+😹😹😹 hahah….
+Is there one out there who can confirm these numbers??? 
+
+These is huge and likely GME early these year….
+
+Next rocket to the Moon? What’s your opinions?
+
+Im not a Financial Advicor, just a retard ape……. 
+
+Tried it three times to make a post on WSB… hope these finally fit!",2021-06-30 05:11:40,0.096,0.638,0.266,0.9437
+74,I am a bot from /r/wallstreetbets. Your submission was removed because was too short. Please make it a comment if it's not worth expounding on.,2021-06-30 05:11:40,0.18,0.732,0.089,-0.3326
+75,They keep pausing GME! That shit about to balloon 🎈🚀🚀🚀[removed],2021-06-30 14:53:47,0.302,0.698,0.0,-0.5983
+76,"Your submission was removed from /r/wallstreetbets due to being too short. All text submissions must be at least 100 characters long.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/wallstreetbets) if you have any questions or concerns.*",2021-06-30 14:53:47,0.063,0.888,0.049,-0.1779
+77,"I know you apes just love GME, so here ya go! You’re very own GME, caught fresh on camera in the wilderness.",2021-06-30 11:30:13,0.0,0.737,0.263,0.7777
+78,"I‘m leaving WallStreetBets.It has been nice on here for a long time. Fun DD‘s, fun people, nice and relevant posts, no echo that halls for 4 months and onwards. Everyone was doing what his own retarded brain thought was best, and sometimes there‘s been so much brain-greasy spent, that a fat DD came together that even made sense (while also having some worm-shit level bullcrap inbetween sentences).
+
+Since GME though, the influx of new people (and Bots, and Hedge Fund-Paid Shills) has increased so much, I can‘t tell if someone is truly on about sth. or if a post has been written by big boy manipulators. The Overall IQ of this Subreddit scratches at negative territory, and there hasn‘t been one genuinely „great“ post on my frontpage from this subreddit for 2 months now. 
+
+Since apparently the situation is only getting worse in here, I‘m quitting this subreddit for good. I‘ll go on my own from now and gather additional info from more sensible subreddits. And I KNOW, this subreddit was for retarded bets and all that, but even those aren‘t a thing anymore. Just Millionaires getting cocky by posting  their share positions in the same tickers/companies over and over. I. Don’t. Care. There have at least been some special picks and reasons for them before GME was athing. 
+
+I hope I can come back here once and not be flooded with posts about the same five companies over and over.
+
+Humans are intelligent, groups of humans aren‘t. Guess that applies to this subreddit. :/
+
+Cheers guys, take care.
+
+Tom",2021-06-30 11:30:20,0.045,0.804,0.151,0.9838
+79,"
+**User Report**| | | |
+:--|:--|:--|:--
+**Total Submissions**|11|**First Seen In WSB**|6 months ago
+**Total Comments**|167|**Previous DD**|
+**Account Age**|2 years|[^scan ^comment ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_comment&message=Replace%20this%20text%20with%20a%20comment%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20comment%20and%20correct%20your%20first%20seen%20date.)|[^scan ^submission ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_submission&message=Replace%20this%20text%20with%20a%20submission%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20submission%20and%20correct%20your%20first%20seen%20date.)",2021-06-30 11:30:20,0.0,1.0,0.0,0.0
+80,"1st MySpace, now WSB ..Jesus tom",2021-06-30 11:30:20,0.0,1.0,0.0,0.0
+81,See you next week,2021-06-30 11:30:20,0.0,1.0,0.0,0.0
+82,There should be a way to hide posts and comments from anyone who subbed after January.,2021-06-30 11:30:20,0.108,0.892,0.0,-0.1779
+83,See you on your new alt. 😉,2021-06-30 11:30:20,0.0,1.0,0.0,0.0
+84,Never heard of you,2021-06-30 11:30:20,0.0,1.0,0.0,0.0
+85,"You literally joined 6 months ago because of meme stocks, what’d you expect lol",2021-06-30 11:30:20,0.0,0.811,0.189,0.4215
+86,C R I N G E,2021-06-30 11:30:20,0.0,0.0,0.0,0.0
+87,Tbh if we were still seeing nothing but amc posts ild be gone too. See you behind the dumpster at Wendy's at our usual time,2021-06-30 11:30:20,0.073,0.927,0.0,-0.2263
+88,Bye Felicia,2021-06-30 11:30:20,0.0,1.0,0.0,0.0
+89,Queerbait,2021-06-30 11:30:20,0.0,1.0,0.0,0.0
+90,TOM IS NOW A MILLIONAIRE AND DOESNT NEED US ANYMORE FUCK YOU TOM,2021-06-30 11:30:20,0.0,1.0,0.0,0.0
+91,[removed],2021-06-30 11:30:20,0.0,1.0,0.0,0.0
+92,Damn this got deleted as I was reading it lol,2021-06-30 11:30:20,0.216,0.56,0.224,0.0258
+93,Bye Felicia,2021-06-30 11:30:20,0.0,1.0,0.0,0.0
+94,This isn’t an airport and you don’t need to announce your departure,2021-06-30 11:30:20,0.0,1.0,0.0,0.0
+95,"BB over 3 years of June data and a long caseHere is some math using June as our base month for a bullish position.
+
+Date	Open	High	Low	Close	Adj Close	Volume
+
+Jun 01, 2021	11.23	20.17	10.52	12.24	12.24	2,129,362,800
+
+Jun 01, 2020	4.64	5.84	4.59	4.89	4.89	142,716,000
+
+Jun 01, 2019	7.83	9.09	7.10	7.46	7.46	139,959,300
+
+Let's assume you bought on the adjusted close in the following scenarios. We will use 2020 as base year as it's the mid point between 2019 and 2021. One year prior in 2019 it was trading about 52% higher. One year later it was trading 250% higher. If you looked at 2020 as the bottom and held for a year then your assumption is it would improve back towards 2019 highs. In reality it was about 5x times higher than your long thesis of a mere 50% gain. To say the least that is a great return on investment. I think the price point technicals are showing the true trajectory of BB.
+
+ If you used 2019 as your base year you lost 34.5% if you sold one year later in 2020. If you waited two years from 2019 then your return is 64% after 2 years. 
+
+If you just bought the average close and completely miss the high sale and hold then you will get your money back in a year. The most important difference is look at the volume. It is  now about 14.92% higher than in 2020. It is 15.2% higher than in 2019. Who is buying?
+
+Longs and shorts. Are the shorts that much smarter than the longs? Perhaps but probably not. If you look at the short interest it is not remarkably higher. Either short are covering a lot more in the day or some big entity like [Canaccord Genuity](https://www.canaccordgenuity.com/) is shorting on the dark pool. Why? Because the majority of investors are not short oriented. The majority buy and hold and usually sell when they hit a certain paper loss and thus sell creating actual loss. FOMO or overbuying on leverage gets them into buying above a reasonable entry and they aren't willing or able to hold until they get a reasonable return. Many traders thus cut on the first pass near their entry for a small gain or loss. Buying the dip works if your stock has a reasonable chance of going above your entry. Think of the folks that bought the highs of AMC in the upper 20s. Some averaged down and some just held till it hit the 30s. 
+
+Blackberry is rapidly approaching a critical junction. When it rips again then it will likely go  well past this years all-time highs. Why? Because the volume is picking up and more and more traders are seeing the incredible success with both GME and AMC. Institutions are buying and yes they are selling at highs and buying lower down and will repeat the process. They are buying the short position and the paper hand position.
+
+The minute Blackberry hits anywhere above 28 and likely a minimum of 30 and holds then the story will instantly become the story of how Blackberry really was a great turn around. Some monetization event will occur, patent sale goes through and is disclosed or Blackberry monetizes part of its new revenue streams. It will then head towards 75 and 100. Why? Because the big time longs will be ready to make their real profits and start a new acquisition phase. They will most certainly sell higher as shorts cover, new longs enter in that buy in the new highs on the new momentum, and the process repeats till it hits its final higher highs.  
+
+How much could Blackberry make it too? Not going to lie. I'd love to see a GME scenario. If it 420.69 and I'm holding my current share size then, I'd have BB tattoo'd with the price target and I'm afraid of needles. Possible? Sure. Likely, who knows. It can and will eventually hit again the 140s. Why former high and yes professional traders and day traders love to buy and hold on the way to established levels. If the GME scenario actually happened it would probably eventually base out in the mid-100s before getting back to the 200s. Absurd you say? At about twelve bucks if it went up 250% then that is 360. The big whales and institutions will make the same amount by percentage. As more retail buyers show up then those are more sales for the big guys.  
+
+I'm not BB to 1000. I'm still kicking myself for letting NVDA go at 400 though. Meh, it's only money. I've been moderately well to do in my life and poor as dirt. I'm blessed and really think BB is going to make some long sided traders a lot of money.  I hope to be one of them. Buy the dip, buy the rip, buy and hodl, buy and yodel, don't buy, don't care. Most of all  do what works for you. I'm not an advocate for pump and dump. I am an advocate for investing in stocks you like. I am investing and taking profits along the way. I like the underdogs. Been one most of my life. Heck, I root for the Eagles and Panthers, how much more underdog can you get than that? Both though made it to the Super Bowl and won. I think 100 bucks a share is an actual reasonable target for BB be it in 2021, 2022, or 2023.  The same people that said that was a pipe dream are the same ones that said it would never hit 28 or 20 this year. They were wrong. Time will tell if they are wrong again. There is power in retail investors willing to buy and hold.
+
+So are you saying yolo everything tomorrow on the open? No, I'm not a financial advisor. Check my profile. I'm just an ape investor. I trade for a living and do IT. I hopefully will start a doctorate in the fall in theology. In other words, don't bet your life savings on a YOLO play unless you know what you are doing. I didn't yolo it. I did invest a load of investment money on BB and other stocks. I've made money, I've lost money. It happens.
+
+Let me translate to ape. Buy blackberries which are a yummy fruit that is not a banana. HODL and sell and buy a lot of banana. In other words if you don't paper hand then you make a ton of green in time if the pattern above holds.",2021-06-30 20:30:00,0.081,0.751,0.169,0.999
+96,The heartbeat of hedge funds dying . . . from GME!,2021-06-30 15:00:00,0.32,0.68,0.0,-0.5093
+97,"Daily option statistics for CLOV, AMC, GME, AMD, WISH, WKHS, CLNE, NIO, MU and others.Hey everyone, 
+
+Here are the daily option statistics for the top 10 most talked about stocks on WSB. Overall a boring day with $NIO(+6%) and $AMD(+5%) leading the pack. 
+
+# CLOV: 
+
+[-0.30&amp;#37;](https://preview.redd.it/w1p86ku6kg871.png?width=1506&amp;format=png&amp;auto=webp&amp;s=1edf9cdddfff8642fb7d321b7285c7f9e72989f4)
+
+# AMC:
+
+[+0.44&amp;#37;](https://preview.redd.it/i6kqhlc7kg871.png?width=1506&amp;format=png&amp;auto=webp&amp;s=a2fc45294236d8976744791b16a8597fd0794221)
+
+# GME:
+
+[+1.55&amp;#37;](https://preview.redd.it/wkg1r2y7kg871.png?width=1505&amp;format=png&amp;auto=webp&amp;s=3e046fa2d5795d81a782551e0cd31c3f674accfb)
+
+# AMD:
+
+[+4.93&amp;#37;](https://preview.redd.it/s6k8e1m8kg871.png?width=1505&amp;format=png&amp;auto=webp&amp;s=79b8c4fc9c45b33bc01638492723404c7dacfd17)
+
+# WISH:
+
+[-1.72&amp;#37;](https://preview.redd.it/7pejilc9kg871.png?width=1501&amp;format=png&amp;auto=webp&amp;s=8c8270f62434d4922627d1a538e133a06c814002)
+
+# WKHS:
+
+[-3.55&amp;#37;](https://preview.redd.it/xrmb8ax9kg871.png?width=1506&amp;format=png&amp;auto=webp&amp;s=a1f4ed46942e0191f8d9d4bf92e80b7ace976830)
+
+# CLNE:
+
+[-1.55&amp;#37;](https://preview.redd.it/yk6hnyiakg871.png?width=1498&amp;format=png&amp;auto=webp&amp;s=4f697de6f5fed77f3ddd21da01b5ee16e405cf6f)
+
+# NIO:
+
+[+5.68&amp;#37;](https://preview.redd.it/q2zhsabbkg871.png?width=1493&amp;format=png&amp;auto=webp&amp;s=05323f75aa69dfaa1e70a74087e95c1db564ba12)
+
+# MU:
+
+[+2.47&amp;#37;](https://preview.redd.it/lfmgg9vbkg871.png?width=1506&amp;format=png&amp;auto=webp&amp;s=417829349def66a66e42055bb11c475c970aef9f)
+
+As usual let me know if I forgot anything. I will be back on in 30 minutes to update and change things. 
+
+  
+Until next time, best of luck in your investments!",2021-06-30 15:03:36,0.022,0.81,0.167,0.9415
+98,"
+**User Report**| | | |
+:--|:--|:--|:--
+**Total Submissions**|21|**First Seen In WSB**|5 months ago
+**Total Comments**|226|**Previous DD**|[x](https://www.reddit.com/r/wallstreetbets/comments/l2yles/what_ever_happened_to_that_guy_who_posted_the/) [x](https://www.reddit.com/r/wallstreetbets/comments/nudcrm/to_the_guy_who_recommended_wendys_stockwen_proper/) [x](https://www.reddit.com/r/wallstreetbets/comments/nwh3wm/why_i_decided_to_buy_tootsie_roll_tr_proper_dd/) 
+**Account Age**|6 months|[^scan ^comment ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_comment&message=Replace%20this%20text%20with%20a%20comment%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20comment%20and%20correct%20your%20first%20seen%20date.)|[^scan ^submission ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_submission&message=Replace%20this%20text%20with%20a%20submission%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20submission%20and%20correct%20your%20first%20seen%20date.)",2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+99,WKHS babyyyy our little pony will become an unicorn 🦄🦄🦄🦄🦄🦄🚀🚀🚀🚀🚀🚀,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+100,"Long $WKHS July and Aug. calls! Think there's a catalyst in play, and a great chart setup. Let's see what happens. Heavily-shorted name too!",2021-06-30 15:03:36,0.0,0.653,0.347,0.8774
+101,Where is BB ?,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+102,Should be a big day for CLOV tomorrow 🍀🦍,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+103,Wkhs,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+104,WKHS lets go!!,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+105,CLOV ♾♾♾♾♾,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+106,"$clov is finding a footing at $13 🙌💎🚀🌝🍀
+I just like the stock !!!",2021-06-30 15:03:36,0.0,0.765,0.235,0.5229
+107,CLOV is sustaining and consolidating pretty well despite heavy sell side pressure. 🍀 🚀,2021-06-30 15:03:36,0.122,0.445,0.433,0.6788
+108,WISH!! 🚀🚀🚀🚀💎🤲,2021-06-30 15:03:36,0.0,0.199,0.801,0.6145
+109,Wish will continue to grow! It's a shame we cannot keep the volume though. Bought another 160 today to bring me to 1700! July will be big,2021-06-30 15:03:36,0.121,0.79,0.089,-0.2462
+110,WKHS,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+111,"NIO is back on the menu, boys!",2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+112,I JUST WISH ✨🚀💎🤝,2021-06-30 15:03:36,0.0,0.368,0.632,0.5319
+113,WKHS 🚀🌚,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+114,Uwmc please and thank you my good man.,2021-06-30 15:03:36,0.0,0.394,0.606,0.7717
+115,CLNE will take off and be good for a long time,2021-06-30 15:03:36,0.0,0.756,0.244,0.4404
+116,"Been a pretty sad week for CLNE, UWMC and GSAT, just ask my portfolio. 🌈🐻 Fucking it pretty good this week, holding and hoping things will turn around again after the holiday weekend.",2021-06-30 15:03:36,0.071,0.592,0.337,0.8934
+117,WKHS!!!! Made in the USA! Bam 💥 Buy American!!!,2021-06-30 15:03:36,0.0,0.627,0.373,0.6331
+118,Whats up with CLNE,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+119,wonder why NIO posts are being deleted off WSB,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+120,Wkhs!,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+121,Long WKHS 5000 shares.  🚀🦍🐎,2021-06-30 15:03:36,0.0,0.645,0.355,0.296
+122,UWMC 🚀,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+123,NIo CLOV if you want to make money!!!!!,2021-06-30 15:03:36,0.0,0.739,0.261,0.3544
+124,AMD BNGO CLOV,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+125,NIO gang,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+126,Wkhs!,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+127,WKHS... Holding 638 shares and a boatload of July and Aug calls.  Make dada some mulá my little 🐎,2021-06-30 15:03:36,0.0,0.743,0.257,0.6369
+128,Tough day outside of AMD.,2021-06-30 15:03:36,0.273,0.727,0.0,-0.128
+129,"Nio, pltr, and apple pretty much have my portfolio heavily in the green. The rest of my dry powder been going in to wrks",2021-06-30 15:03:36,0.0,0.878,0.122,0.4939
+130,Wkhs short % going down. Are they covering?,2021-06-30 15:03:36,0.333,0.667,0.0,-0.4588
+131,Wish you goons would pump thatBB again.,2021-06-30 15:03:36,0.0,0.69,0.31,0.4019
+132,NIO,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+133,"More AMC consolidation today
+As short interest ticked up to 19%. Baby I can wait all the time needed until they cover",2021-06-30 15:03:36,0.216,0.672,0.112,-0.4215
+134,$CLOV BABBEEEE,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+135,SNDL,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+136,$SOFI?,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+137,AMD was the love child of WSB,2021-06-30 15:03:36,0.0,0.588,0.412,0.6369
+138,GSAT ready for another run at the $2 wall!,2021-06-30 15:03:36,0.0,0.741,0.259,0.4199
+139,"NIO was looking glorious today, though Wkhs has some big gains coming our way! 🚀🚀📈",2021-06-30 15:03:36,0.0,0.654,0.346,0.784
+140,SOFI,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+141,Anyone notice the delayed correlation between AMD and MU?  Looks like the same algo is on MU as AMD which means the spike for MU will be in mid/end of August perhaps?   Say this as I am looking to get calls for MU but if this is right... it's not tomorrow but late july's time to buy.  If you can convince me otherwise I'll buy couple hundred calls on MU tomorrow,2021-06-30 15:03:36,0.017,0.758,0.224,0.9528
+142,OP once again thanks!👍,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+143,"Hi guys, hope well, anyone noticing these scum Citadel has moved into shorting Nikola and Romeo Power? Regards",2021-06-30 15:03:36,0.13,0.652,0.217,0.25
+144,Apes Get on the CLOV train before it’s too late 💎🙌🦍🚀🚀🚀,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+145,[removed],2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+146,"Sold all my mu calls this morning! As usual, down AH after ER",2021-06-30 15:03:36,0.0,0.785,0.215,0.5093
+147,"Can you do RKT too, please?",2021-06-30 15:03:36,0.0,0.685,0.315,0.3182
+148,AMD 🚀🚀,2021-06-30 15:03:36,0.0,1.0,0.0,0.0
+149,Can you start including $🅰️STS in the daily option statistics? Thank you!,2021-06-30 15:03:36,0.0,0.798,0.202,0.4199
+150,$WISH have a similar day as $GME after CFO leaving? Tomorrow will tell.,2021-06-30 20:42:29,0.0,1.0,0.0,0.0
+151,"Your submission has been removed because it appears to be a screenshots, not a direct link to the article.
+
+It's important to link directly to the article so that readers can contribute to the discussion in an informed manner.
+
+If possible, please try and avoid paywalled articles, use a service like [archive.org](https://archive.org/) or [archive.is](http://archive.is/) to bypass it. 
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/wallstreetbets) if you have any questions or concerns.*",2021-06-30 20:42:29,0.026,0.866,0.107,0.6908
+152,"News posts **must be market moving** and contain **new** information. Please avoid editorializing the title. 
+
+If your post doesn't meet the requirements above, please delete the thread before a mod sees it.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/wallstreetbets) if you have any questions or concerns.*",2021-06-30 20:42:29,0.037,0.846,0.117,0.5719
+153,"We are retards non investors we trade y-o-l-o and now everybody pretends to have a suit and f4cking works for Wall Street and do ""conservative"" tradesI will explain from APE to APEs and please remove your Wall Street suit bought at TJ Max.
+
+[AMC](https://finance.yahoo.com/quote/AMC/key-statistics?p=AMC)
+
+Public float: **440M shares, 85M shorted**
+
+[UWMC](https://finance.yahoo.com/quote/UWMC/key-statistics?p=UWMC)
+
+Public float: **80M shares, 11M shorted**
+
+&amp;#x200B;
+
+You apes somehow(you pretend to know how) managed to boost a fucking giant stock with 440M shares and tons of shorting, you made this:
+
+&amp;#x200B;
+
+https://preview.redd.it/udnbvlxvmh871.png?width=2388&amp;format=png&amp;auto=webp&amp;s=8a6f61994ab6f9082ef77623c214a3b5cfb890bc
+
+You controlled the downtrend and jeopardize the shorters, and you have an opportunity for another short squeeze as they don't yet cover:
+
+&amp;#x200B;
+
+https://preview.redd.it/hw436rf4nh871.png?width=2398&amp;format=png&amp;auto=webp&amp;s=f074c0c0e85996a951a352a8ebf6b99a0471e6b8
+
+&amp;#x200B;
+
+IF YOU ALL APES living in the basement of your parents managed to beat a 440M shares stock to go from $6 to $55, what you can do with a stock with 80M shares and valued $8 because the HF that used to bully AMC now are bullying us?
+
+[https://iborrowdesk.com/report/uwmc](https://iborrowdesk.com/report/uwmc)
+
+AMC now has been stabilized, GME same, but this UWMC baby require all of **your help**.
+
+I KNOW that last month you tried this and this was not trending, so I'm here on the root of all of us, asking you to fucking beat the greedy HF, this is an easy one if you all go crazy buying shares, again if you fueled to the moon a 400M shares stock, what can you all do with a 80M shares stock?
+
+&amp;#x200B;
+
+Anyway, disclaimer I'm just an APE like most of you and this is just a retard idea NOT FUCK1NG FINANCIAL ADVISEMENT. (not that any would consider it).
+
+&amp;#x200B;
+
+Send greetings to the BF of your wife, very chilling guy.",2021-06-30 18:33:05,0.074,0.798,0.129,0.9425
+154,"
+**User Report**| | | |
+:--|:--|:--|:--
+**Total Submissions**|3|**First Seen In WSB**|2 weeks ago
+**Total Comments**|6|**Previous DD**|
+**Account Age**|6 years|[^scan ^comment ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_comment&message=Replace%20this%20text%20with%20a%20comment%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20comment%20and%20correct%20your%20first%20seen%20date.)|[^scan ^submission ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_submission&message=Replace%20this%20text%20with%20a%20submission%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20submission%20and%20correct%20your%20first%20seen%20date.)",2021-06-30 18:33:05,0.0,1.0,0.0,0.0
+155,[deleted],2021-06-30 18:33:05,0.0,1.0,0.0,0.0
+156,Fresh off a ban... Yolo your portfolio!,2021-06-30 18:33:05,0.0,0.417,0.583,0.68
+157,"The Legend of Apes: The story of GME, in a short video of apes (I know they're gorrilas). Enjoy!!",2021-06-30 07:38:06,0.132,0.702,0.166,0.1984
+158,"
+**User Report**| | | |
+:--|:--|:--|:--
+**Total Submissions**|13|**First Seen In WSB**|4 months ago
+**Total Comments**|63|**Previous DD**|
+**Account Age**|5 years|[^scan ^comment ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_comment&message=Replace%20this%20text%20with%20a%20comment%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20comment%20and%20correct%20your%20first%20seen%20date.)|[^scan ^submission ](https://www.reddit.com/message/compose/?to=VisualMod&subject=scan_submission&message=Replace%20this%20text%20with%20a%20submission%20ID%20(which%20looks%20like%20*h26cq3k*)%20to%20have%20the%20bot%20scan%20your%20submission%20and%20correct%20your%20first%20seen%20date.)",2021-06-30 07:38:06,0.0,1.0,0.0,0.0
+159,Gorillas are part of the hominidae family. The Great Ape...,2021-06-30 07:38:06,0.0,0.687,0.313,0.6249
+160,This was a waste of time,2021-06-30 07:38:06,0.412,0.588,0.0,-0.4215
+161,"Mods will allow memes here about WSB, but no actual valuable stuff. It's pretty widely known on other subs this place is infiltrated by shills.",2021-06-30 07:38:06,0.083,0.623,0.294,0.7964
